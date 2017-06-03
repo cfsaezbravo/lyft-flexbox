@@ -9,7 +9,6 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
-  background-color: pink;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -76,4 +75,47 @@ body {
   background: rgb(255,255,255);
 }
 
+/*Primera caja*/
 
+#first-box{
+	background-color: #2B1E66;
+	height: 200px;
+} 
+
+
+/*Footer*/
+
+footer{
+	background-color: #333447;
+	height: auto;
+	color: whitesmoke;
+	width:100%;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+ul{
+	list-style: none;
+}
+
+
+.first-column a, .second-column a, .third-column a{
+	color: #f3f3f5;
+	text-decoration: none;
+}
+
+.img-google, .img-apple, .img-microsoft, .img-amazon{
+	width: 80%;
+}
+
+.first-column, .second-column, .third-column, .social-media{
+	margin: 25px;
+}
+
+.second-column, .third-column{
+	margin-left: 75px;
+}
+
+.social-media{
+	margin-left: 380px;
+}
