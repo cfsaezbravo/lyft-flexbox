@@ -1,1 +1,79 @@
-main.css
+/*
+Botones, hover: #FFooBF;
+nav blanco con letras azules y fondo de footer: #333447;
+titulos form: #352384;
+texto form: #728099;
+Gradiente morado: linear-gradient(#76278f, #2B1E66);*/
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: pink;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.link{
+  font-weight: 700;
+  padding: 20px;
+  text-decoration: none;
+  color: #333447;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/*Contenedor Flexbox*/
+.flex-container{
+	display: flex;
+}
+
+/*Navbar*/
+.menu{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	justify-content: space-between;
+	height: 113px;
+	flex-wrap: wrap;
+}
+
+.link-container{
+	justify-content: center;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-right: 190px;
+}
+
+.logo-container{
+	justify-content: flex-start;
+	order: -1;
+	margin-right: auto;
+	margin-left: 85px;
+}
+
+.flex-container .logo{
+	width: 65px;
+	height: 45px;
+	margin-top: 30px;
+}
+
+.menu button{
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 1px solid rgba(180,180,180,1);
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  font: normal 20px/normal "montserrat", Helvetica, sans-serif;
+  color: #333447;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgb(255,255,255);
+}
+
+
